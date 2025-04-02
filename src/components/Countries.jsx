@@ -24,7 +24,7 @@ function Countries(){
       console.log(finalResponse);
       setCountries(finalResponse);
     }catch(error){
-      console.error(error);
+      console.error("Error fetching data: ",error);
     }
   }
 
